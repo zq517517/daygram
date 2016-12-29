@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_display"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.msi.zmj.DisplayActivity"
+    android:background="@drawable/display">
+
+    <TextView
+        android:text="Date"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/date"
+        android:gravity="center"
+        android:textSize="18dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:layout_below="@+id/date"
+        android:id="@+id/diary"
+        android:gravity="top" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        app:srcCompat="@drawable/home"
+        android:id="@+id/home"
+        android:layout_alignParentBottom="true" />
+
+    <Button
+        android:text="DONE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/done"
+        android:gravity="center" />
+</RelativeLayout>

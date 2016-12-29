@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Daygram</string>
+    <string name="title_activity_browse">BrowseActivity</string>
+
+    <item name="tag_first" type="id"></item>
+    <item name="tag_second" type="id"></item>
+    <item name="tag_third" type="id"></item>
+</resources>
